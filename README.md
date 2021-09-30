@@ -18,4 +18,4 @@
 2. This is the landing page of the clone website. click on the sign up on the top right to sign up.
 ![Screenshot (597)](https://user-images.githubusercontent.com/61643245/135500594-24e07da2-49b4-4e74-ac8a-d5a1354d7a14.png)
 
-3. 
+3. after provide mobile number you get the OTP on your given mobile number
