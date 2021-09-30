@@ -19,3 +19,10 @@
 ![Screenshot (597)](https://user-images.githubusercontent.com/61643245/135500594-24e07da2-49b4-4e74-ac8a-d5a1354d7a14.png)
 
 3. after provide mobile number you get the OTP on your given mobile number
+![Screenshot (606)](https://user-images.githubusercontent.com/61643245/135501315-924ee12e-ae36-4758-afe0-2d1c7fc097ad.png)
+
+4. fill the correct otp then user get  message on the screen sucessfully login
+![Screenshot (605)](https://user-images.githubusercontent.com/61643245/135501640-a10fcc81-adb4-4870-8458-e2636bddee72.png)
+
+5.After Login user gets profile icon in top right on navigation bar just click on that icon to go to user profile
+![image](https://user-images.githubusercontent.com/61643245/135502255-74ddc299-055f-498f-a525-2a431a9780cd.png)
