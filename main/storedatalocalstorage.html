@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form onsubmit="wholeprod(event)" id="myform">
+
+        <input type="text" id="name" placeholder="productname">
+        <input type="text" id="quantity" placeholder="quantity">
+        <input type="text" id="ratingstar" placeholder="ratingstar">
+        <input type="text" id="numberrating" placeholder="numberrating">
+        <input type="text" id="mrp" placeholder="mrp">
+        <input type="text" id="mrpdiscount" placeholder="mrpdiscount">
+
+
+        <input type="text" id="realprice" placeholder="realprice">
+
+        <input type="text" id="image" placeholder="image">
+        <input type="submit">
+
+    </form>
+
+
+
+
+</body>
+
+</html>
+<script>
+    function wholeprod(e) {
+        e.preventDefault();
+        let fom = document.getElementById("myform");
+
+
+        let name = fom.name.value;
+        let quantity = fom.quantity.value
+        let ratingstar = fom.ratingstar.value
+        let numberrating = fom.numberrating.value;
+        let mrp = fom.mrp.value
+        let mrpdiscount = fom.mrpdiscount.value;
+        let realprice = fom.realprice.value;
+        let image = fom.image.value;
+
+        let product = {
+            name,
+            quantity,
+            ratingstar,
+            numberrating,
+            mrp,
+            mrpdiscount,
+            realprice,
+            image
+        };
+        // check local storage is null or exist
+        if (localStorage.getItem("baidyanath") === null) {
+            localStorage.setItem("baidyanath", JSON.stringify([]));
+        }
+
+        let productloc = JSON.parse(localStorage.getItem("baidyanath"));
+        console.log();
+        productloc.push(product);
+        console.log(productloc)
+        localStorage.setItem("baidyanath", JSON.stringify(productloc));
+        fom.name.value = "";
+
+        fom.quantity.value = "";
+        fom.ratingstar.value = "";
+        fom.numberrating.value = "";
+        fom.mrp.value = "";
+        fom.mrpdiscount.value = "";
+        fom.realprice.value = "";
+        fom.image.value = "";
+
+
+    }
+</script>
