@@ -13,3 +13,9 @@
 # How to browse through the project? 
 #### In order to use the project you need to follow the below steps.
 1. Open index.html on live server(using VS code live server).
+![Screenshot (596)](https://user-images.githubusercontent.com/61643245/135500169-69bf9539-e265-418b-9cd1-136c94a0cac5.png)
+
+2. This is the landing page of the clone website. click on the sign up on the top right to sign up.
+![Screenshot (597)](https://user-images.githubusercontent.com/61643245/135500594-24e07da2-49b4-4e74-ac8a-d5a1354d7a14.png)
+
+3. 
