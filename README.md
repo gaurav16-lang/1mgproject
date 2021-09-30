@@ -5,7 +5,11 @@
 
 #### In this project I have tried to make a look alike clone of 1mg. With my efforts and the technology stack, that I have learned so far in the masai school.
 
-# Introduction
+# Technology Stack Used 
+* HTML5
+* CSS
+* JavaScript (LocalStorage, DOM)
 
-#### TATA 1mg is thr integrated health platform platform based in Gurgaon, India.It provides services, including e-pharmacy, diagnostics, e-consultation and health content
-
+# How to browse through the project? 
+#### In order to use the project you need to follow the below steps.
+1. Open index.html on live server(using VS code live server).
