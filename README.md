@@ -48,7 +48,7 @@
 # Video demo
 
 
-# Cloned by
+# Author
 #### Gaurav Maihuria
 * [Linkedin](www.linkedin.com/in/gaurav-maihuria)
 * [Medium](https://medium.com/@gauravmaihuria)
